@@ -1,11 +1,11 @@
-name: npu1
+name: npu2
 on:
   workflow_dispatch:
 
 jobs:
   Explore-GitHub-Actions:
     # You need to use the INSTALLATION_NAME from the previous step
-    runs-on: org5-repo1-npu1
+    runs-on: org5-repo1-npu2
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
     # - name: Show details
